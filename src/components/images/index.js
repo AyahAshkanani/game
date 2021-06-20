@@ -8,6 +8,7 @@ import Phil from "./Phil.png";
 import recess from "./recess.png";
 import flip from "./flip.png";
 
+// we have two sets of each card that's why we repeated them
 export let images = [
   {
     name: "buttercup",

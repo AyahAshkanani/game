@@ -1,6 +1,7 @@
 import React from "react";
 import { messages } from "./messages";
 
+// this shows me the message after i finish the game
 class EndGame extends React.Component {
   handleClick = () => {
     this.props.newGame(false);

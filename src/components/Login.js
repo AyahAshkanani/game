@@ -14,17 +14,20 @@ class Login extends React.Component {
     return (
       <div className="wrapper">
         <div className="login">
+        
           <form>
+          <div className="game-title">  Memory Game Cartoon Edition</div>
             <div className="form-group">
-              <label>Name</label>
+              <label>Name </label>
               <input
                 type="name"
                 className="form-control"
                 onChange={this.handleChange}
+                placeholder="e.g: janedoe"
               />
-              <small className="form-text text-muted">
+              {/* <small className="form-text text-muted">
                 This is a memory game
-              </small>
+              </small> */}
             </div>
 
             <button onClick={this.handleClick} className="btn btn-primary">
